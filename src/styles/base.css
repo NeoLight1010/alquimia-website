@@ -1,11 +1,5 @@
 :root {
-    height: 100%;
-}
-
-body {
-    font-family: "Urbanist", sans-serif;
-    color: white;
-    letter-spacing: 0.1em;
+    height: 100vh;
 
     background: rgb(0, 142, 171);
     background: linear-gradient(
@@ -14,7 +8,14 @@ body {
         rgba(154, 154, 189, 1) 76%
     );
 
-    height: 100vh;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    letter-spacing: 0.1em;
+
+    height: 100%;
 
     margin: 0;
     padding-left: 8px;
