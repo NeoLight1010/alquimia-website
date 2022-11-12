@@ -16,3 +16,17 @@
 
     width: 25vw;
 }
+
+.content-text {
+    max-width: 55%;
+
+    text-justify: align;
+}
+
+.content-slogan {
+    font-size: xx-large;
+}
+
+.content-description {
+    font-size: small;
+}
