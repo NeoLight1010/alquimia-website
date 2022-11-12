@@ -1,14 +1,11 @@
 html {
     height: 100%;
-
-    font-size: calc(15px + 0.390625vw);
 }
 
 body {
     font-family: "Urbanist", sans-serif;
     color: white;
     letter-spacing: 0.1em;
-    font-size: 2vw;
 
     background: rgb(0, 142, 171);
     background: linear-gradient(
@@ -65,4 +62,14 @@ body {
     align-items: center;
 
     gap: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .navbar-title {
+        display: none;
+    }
+
+    .navbar .navbar-links {
+        font-size: small;
+    }
 }
