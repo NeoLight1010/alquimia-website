@@ -1,0 +1,18 @@
+.content-box {
+    flex-grow: 1;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 20px;
+
+    gap: 1em;
+}
+
+.content-orli {
+    max-width: 350px;
+
+    width: 25vw;
+}
